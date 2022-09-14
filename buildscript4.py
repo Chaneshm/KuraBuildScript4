@@ -1,5 +1,7 @@
 # Chanesh Mahadeo
 # 9/13/2022
+# PLEASE PIP INSTALL PANDAS IN ORDER TO RUN THIS SCRIPT
+
 import requests
 import pandas as pd
 import os
