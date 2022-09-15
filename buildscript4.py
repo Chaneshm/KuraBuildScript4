@@ -5,6 +5,8 @@
 # then it creates an API request and receives a JSON file which I use to extract specific variables from.
 # The next step utilizes the power of pandas turning a dictionary into a dataframe and then turning that dataframe into
 # a csv file all within 4 lines.
+
+# Current errors would include not spelling the location properly. The api requires locations to be spelt properly.
 import requests
 import pandas as pd
 import os
