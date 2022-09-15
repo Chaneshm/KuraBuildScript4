@@ -1,7 +1,10 @@
 # Chanesh Mahadeo
 # 9/13/2022
 # PLEASE PIP INSTALL PANDAS IN ORDER TO RUN THIS SCRIPT
-
+# This script is fairly straight forward. You input the location whose weather you would like to see,
+# then it creates an API request and receives a JSON file which I use to extract specific variables from.
+# The next step utilizes the power of pandas turning a dictionary into a dataframe and then turning that dataframe into
+# a csv file all within 4 lines.
 import requests
 import pandas as pd
 import os
